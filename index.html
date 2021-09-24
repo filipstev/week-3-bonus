@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/d3207104f7.js" crossorigin="anonymous"></script>
+
+    <title>FAQ Card</title>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        class="orange-cube"
+        src="images/illustration-box-desktop.svg"
+        alt="orange cube"
+      />
+      <div class="illustration">
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="images/illustration-woman-online-desktop.svg"
+          />
+          <source
+            media="(max-height: 400px)"
+            srcset="images/illustration-woman-online-desktop.svg"
+          />
+          <img
+            src="images/illustration-woman-online-mobile.svg"
+            alt="woman looking at screen"
+          />
+        </picture>
+      </div>
+      <section class="faq content">
+        <h1>FAQ</h1>
+        <div class="faq-item content">
+         
+          <p class="faq-question">
+            How many team members can I invite?
+            <i id="1" class="fas fa-chevron-down"></i>
+           
+          </p>
+          <p class="faq-answer faq-answer-1">
+            You can invite up to 4 users on the free plan. You can invite unlimited users on the premium plan.
+          </p>
+        </div>
+        <div class="faq-item content">
+          <p class="faq-question">
+            What is the maximum file upload size?
+            <i id="2" class="fas fa-chevron-down"></i>
+          </p>
+          <p class="faq-answer faq-answer-2">
+            No more than 2GB. All files in your account must fit your allocatted
+            storage space.
+          </p>
+        </div>
+        <div class="faq-item content">
+          <p class="faq-question">
+            How do I reset my password?
+            <i id="3" class="fas fa-chevron-down"></i>
+
+          </p>
+          <p class="faq-answer faq-answer-3">
+            Click “Forgot password” and a reset link will be sent to your email address.
+          </p>
+        </div>
+        <div class="faq-item content">
+          <p class="faq-question">
+            Can I cancel my subscription?
+            <i id="4" class="fas fa-chevron-down"></i>
+
+          </p>
+          <p class="faq-answer faq-answer-4">
+            Any time! Just send us a message and we'll cancel it immdediately for you.
+          </p>
+        </div>
+        <div class="faq-item content">
+          <p class="faq-question">
+            Do you provide additional support?
+            <i id="5" class="fas fa-chevron-down"></i>
+          </p>
+          <p class="faq-answer faq-answer-5">
+            Live chat support is available 24/7. You can also call us during work hours.
+          </p>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
